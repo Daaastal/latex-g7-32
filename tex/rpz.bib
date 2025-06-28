@@ -1,20 +1,174 @@
-@Comment А вот так оформляется библиография при помощи BibTeX.
+@Comment Список литературы
 
-@Book{Pup09,
-  author =		 {Василий Пупкин and Эйнштейн, А.},
-  title = 		 {\LaTeX для <<чайников>>},
-  publisher = 	 {М.},
-  pagetotal = {299},
-  year = 		 {2009},
-  language =     "russian"
+@Book{Harris2021,
+	author = {Харрис Дэвид М., Харрис Сара Л.},
+	title = {Цифровая схемотехника и архитектура компьютера RISC-V},
+	publisher = {ДМК Пресс},
+	year = {2021},
+	pages = {752},
+	translator= {Романов, А.Ю.},
+	language = {russian}
 }
 
-@online{wiki:latex,
-  author = {Wikipedia},
-  title = {Типографика "--- Википедия},
-  year = {2012},
-  url = {https://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0},
-  urldate = {25.01.2012},
-  language =     "russian"
+@Book{RISC2024,
+	title = {Цифровой синтез: RISC-V},
+	editor = {Романов А. Ю.},
+	publisher = {ДМК Пресс},
+	year = {2024},
+	pages = {636},
+	note = {ил. -- (Книжная полка Истового инженера)},
+	language = {russian}
 }
 
+@Book{Kernighan2019,
+	author = {Керниган Б., Ритчи Д.},
+	title = {Язык программирования C},
+	publisher = {Вильямс},
+	year = {2019},
+	pages = {288},
+	translator= {Бордовая, В.П.},
+	language = {russian}
+}
+
+@Book{MartinCleanCode2024,
+	author = {Мартин Р.},
+	title = {Чистый код: создание, анализ и рефакторинг},
+	publisher = {Питер},
+	year = {2024},
+	pages = {464},
+	language = {russian}
+}
+
+@Book{MartinArch2024,
+	author = {Мартин Р.},
+	title = {Чистая архитектура: искусство разработки программного обеспечения},
+	publisher = {Питер},
+	year = {2024},
+	pages = {352},
+	language = {russian}
+}
+
+@online{cnxsoft2021mik32,
+	title={Mikron MIK32 - Made in Russia 32-bit RISC-V MCU offers features similar to an STM32L0 MCU},
+	author={Jean-Luc Aufranc},
+	year={2021},
+	month={September},
+	day={10}
+}
+
+@online{electronicslab2021mik32,
+	title={Russian Company Develops A Mikron Mik32 MCU With Features Similar To STM32l0 MCU},
+	year={2021},
+	month={September},
+	day={20}
+}
+
+@online{mik32specs2025,
+	title={Технические характеристики микроконтроллера MIK32},
+	url={https://mik32-amur.ru/specification.html},
+	year={2025},
+	language={russian}
+}
+
+@misc{mikron_mik32_amur,
+	title={MIK32 АМУР – RISC-V микроконтроллер от МИКРОН},
+	author={{АО Микрон}},
+	year={2025},
+	note={Первый полностью отечественный микроконтроллер с ядром на открытой архитектуре RISC-V}
+}
+
+@misc{mikron_official,
+	title={Первый уровень: микроконтроллер «Микрона» «MIK32 Амур»},
+	author={{CNews}},
+	year={2025},
+	month={04},
+	note={Сообщение о внесении в Реестр Минпромторга России}
+}
+
+@manual{mik32_technical_spec,
+	title={Техническое описание К1948ВК018 RISC-V микроконтроллер MIK32 АМУР},
+	author={{АО Микрон}},
+	year={2024},
+	version={2.1.5},
+	note={Техническая документация микроконтроллера}
+}
+
+@misc{mik32_documentation,
+	title={Назначение — документация Справочное руководство},
+	author={{MIK32 Documentation Team}},
+	year={2024},
+	url={https://mik32-amur.ru/purpose.html},
+	note={Справочное руководство по микроконтроллеру MIK32}
+}
+
+@article{embedded_abstraction_layers,
+	title={Embedded Systems Abstraction Layers},
+	author={{MicroEJ Developer}},
+	year={2024},
+	month={12},
+	note={Обзор уровней абстракции в встраиваемых системах}
+}
+
+@inproceedings{layered_architecture_embedded,
+	title={Architectural Layer View},
+	author={{Embvm-core Contributors}},
+	year={2020},
+	month={09},
+	note={Архитектурное представление слоев во встраиваемых фреймворках}
+}
+
+@manual{stm32_hal_ll_comparison,
+	title={Description of STM32F4 HAL and low-layer drivers},
+	author={{STMicroelectronics}},
+	organization={STMicroelectronics},
+	number={UM1725},
+	year={2023},
+	note={Техническое описание HAL и LL драйверов STM32}
+}
+
+@misc{linux_gpio_subsystem,
+	title={Linux Kernel Subsystem Architectures: SPI, I2C, and GPIO},
+	author={David Zhu},
+	year={2025},
+	month={04},
+	note={Архитектуры подсистем ядра Linux}
+}
+
+@misc{pca9554_datasheet,
+	title={PCA9554 8-bit I/O expander datasheet},
+	author={{Texas Instruments}},
+	year={2023},
+	note={Техническая документация расширителя портов PCA9554}
+}
+
+@manual{linux_i2c_subsystem,
+	title={I2C and SMBus Subsystem},
+	author={{Linux Kernel Documentation}},
+	organization={Linux Foundation},
+	year={2024},
+	note={Документация подсистемы I2C ядра Linux}
+}
+
+@standard{i2c_specification,
+	title={I2C-bus specification and user manual},
+	author={{NXP Semiconductors}},
+	organization={NXP Semiconductors},
+	year={2021},
+	note={Спецификация протокола I2C}
+}
+
+@article{writing_i2c_clients_linux,
+	title={Writing I2C Clients in Linux},
+	author={{Open Source For You}},
+	year={2016},
+	month={06},
+	note={Руководство по написанию I2C клиентов в Linux}
+}
+
+@misc{i2c_device_driver_tutorial,
+	title={I2C Linux Device Driver using Raspberry PI},
+	author={{EmbeTronicX}},
+	year={2022},
+	month={07},
+	note={Практическое руководство по разработке I2C драйверов}
+}
